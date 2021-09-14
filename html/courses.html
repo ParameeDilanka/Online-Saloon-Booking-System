@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Salon Blossom</title>
+    <link href="../css/coursesstyle.css" rel="stylesheet" type="text/css">
+
+    <script src="../js/script.js"></script>
+
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        .columns {
+            float: left;
+            width: 33.3%;
+            padding: 8px;
+        }
+
+        .price {
+            list-style-type: none;
+            border: 1px solid #eee;
+            margin: 0;
+            padding: 0;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+        }
+
+        .price:hover {
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+        }
+
+        .price .header {
+            background-color: #73cf17;
+            color: white;
+            font-size: 25px;
+        }
+
+        .price li {
+            border-bottom: 1px solid #eee;
+            padding: 20px;
+            text-align: center;
+            color :white;
+        }
+
+        .price .grey {
+            background-color: #eee;
+            font-size: 20px;
+			color:black;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .columns {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="topImage">
+
+    <img alt="Salon" class="logo" height="300px" src="../images/logo4.png" width="40%">
+
+    <ul class="menu" style="position: absolute; left: 0;right: 0;top: 0;margin: 0">
+        <!--        <li ><a href="index.html"><img src="../images/logo4.png " style="height: 60px; display: inline"/> </a></li>-->
+        <li class="menu"><a href="home.html"> Home </a></li>
+        <li class="menu"><a href="../registration.html"> Registration </a></li>
+        <li class="menu"><a href="login.html"> Login </a></li>
+        <li class="menu"><a href="about_us.html"> About us </a></li>
+        <li class="menu"><a href="Service.html"> Service </a></li>
+        <li class="menu"><a href="Gallery.html"> Gallery</a></li>
+        <li class="menu"><a href="../price.html"> Price</a></li>
+        <li class="menu"><a href="courses.html"> Courses </a></li>
+        <li class="menu"><a href="Appointment.html"> Appointment </a></li>
+        <li class="menu"><a href="Contact.html"> Contact</a></li>
+		 <li class="menu"><a href="../map.html"> Location</a></li>
+        <li class="menu"><a href="rating.html">Rating </a></li>
+        <li class="menu" style="position:absolute !important; right:12px !important;">
+            <div class="topnav">
+                <input name="search" placeholder="Search.." type="text"/>
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+<div class="slider"></div>
+<br>
+
+
+<h2 style="text-align:center;color:white ";>Salon Blossom Academy</h2>
+<p style="text-align:center;color:white;font-size: 25px">Discover your own future...</p>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header"style="color:white">Bridal Dressing</li>
+        <li class="grey">Rs22,000</li>
+        <li>1Month</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header" style="background-color:#4CAF50">Makeup Courses</li>
+        <li style="color: #e9f4fb  !important " class="grey" >Rs22000</li>
+        <li>1Month</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header">Salon Management Diploma</li>
+        <li class="grey"color="black">Rs150,000</li>
+        <li>3months</li>
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    </ul>
+</div>
+
+<br>
+<br>
+<div class="contact_title">
+    <h1>____Welcome to Salon Blossom____</h1>
+    <h2>We are always ready to serve you!</h2>
+</div>
+
+<div class="contact-form">
+
+    <form id="contact-form"method="post" action="contact-form-handler.php">
+
+        <input name="name"type="text" class="form-control"placeholder="Your First Name" required>
+        <br>
+        <input name="name"type="text" class="form-control"placeholder="Your Last Name" required>
+        <br>
+        <input name="email"type="email" class="form-control"placeholder="Your Email" required>
+        <br>
+        <input name="course"type="text" class="form-control"placeholder="Select your course" required>
+        <br>
+        <textarea name="message"class="form-control submit"value="send message" row="4"required></textarea>
+            </form>
+</div>
+
+
+
+
+ <footer id="footer">
+        <!--footer-->
+
+        <hr id="test"/>
+        <h4 style="color:white;">Contact No: 0712309845 / 0112577832</h4>
+        <h4 style="color:white;">email: blossom12@gmail.com</h4>
+        <h5 style="color:white;">Address: NO.132/8A, Isurupura Road, Malabe.</h5>
+        <a href="https://www.facebook.com/blossom/"> <img id="img1" src="../images/fab1.png" width="40px"></a>
+        <a href="https://www.instagram.com/blossom/"> <img id="img1" src="../images/insta.png" width="40px"></a>
+        <a href="https://www.twwiter.com/"><img id="img1" src="../images/tweet.png" width="40px"></a>
+        <a href="https://www.whatsapp.com/blossom/"><img id="img1" src="../images/whatsapp.png" width="40px"></a>
+
+        <!--//footer-->
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+#topImage{
+    background-image: url("../images/salon12.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   /* background-color: linear-gradient(  rgba(0, 0, 0, 0), rgb(0, 0, 0));*/
+
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+}
+hr.test {
+    border: 1px solid red;
+}
+
+
+
+h3#header {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+ul.menu {
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    background: linear-gradient(  rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    overflow: hidden;
+    height: 50px;
+}
+
+li.menu {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.bttn1{
+    margin:8px 4px 4px 4px;
+    width:20%;
+    height:50px;
+    background-color:blue;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.productData {
+    background-color: white;
+    margin: 15px 10px 10px 10px;
+    padding: 3px;
+    border-style: groove;
+    border-color: black;
+}
+
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 2px #FFFFFF;
+    background-color: grey;
+}
+
+.topnav {
+    position:relative;
+}
+
+.topnav .img {
+    position: absolute;
+    bottom: 1px;
+    left:15px;
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+	height:25%;
+    width:100%;
+    background:#111;
+
+}

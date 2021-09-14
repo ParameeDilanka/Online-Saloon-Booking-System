@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appointment</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<script src = "../javascript/frmScript.js"></script>
+	<style>
+		body {
+		  background-color: black;
+		}
+	</style>
+</head>
+<body>
+<header>
+<div id="topImage">
+
+    <img class="logo" src="../images/logo4.png" width="40%" height="300px" alt="Salon">
+
+    <ul class="menu" style="position: absolute; left: 0;right: 0;top: 0;margin: 0">
+        <!--        <li ><a href="index.html"><img src="../images/logo4.png " style="height: 60px; display: inline"/> </a></li>-->
+        <li class="menu"><a href="home.html"> Home </a></li>
+        <li class="menu"><a href="../registration.html"> Registration </a></li>
+        <li class="menu"><a href="login.html"> Login </a></li>
+        <li class="menu"><a href="about_us.html"> About us </a></li>
+        <li class="menu"><a href="Service.html"> Service </a></li>
+        <li class="menu"><a href="Gallery.html"> Gallery</a></li>
+        <li class="menu"><a href="../price.html"> Price</a></li>
+        <li class="menu"><a href="courses.html"> Courses </a></li>
+        <li class="menu"><a href="Appointment.html"> Appointment </a></li>
+        <li class="menu"><a href="Contact.html"> Contact</a></li>
+		 <li class="menu"><a href="../map.html"> Location</a></li>
+        <li class="menu"><a href="rating.html">Rating </a></li>
+        <li style="position:absolute !important; right:12px !important;" class="menu">
+            <div class="topnav">
+                <input type="text" name="search" placeholder="Search.."/>
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+</header>
+<div class="container">
+	
+		<div class="time">
+			<h2 class="heading">Time Open</h2>
+			<h3 class="days">Monday-Friday</h3><br/>
+			<p>7.00a.m - 8.00p.m </p>
+	<br/>
+
+			<h3 class="days">Saturday and sunday</h3><br/>
+			<p>9.00a.m - 9.00p.m </p>
+	<br/>
+
+			<hr>
+	<br/>
+			<h4 class="phone">Call Us: (011) 25-77-832<br>(071) 23-09-845 </h4>
+	<br/>
+			<h3>Email:blossom12@gmail.com</h3>
+		</div>
+
+		<div class="frm">
+			<form action="../php/Appointment.php" method="post" onsubmit=" return chkPattern()" autocomplete="off">
+				<h2 class="heading heading-yellow">Book an Appointment</h2>
+
+					<div class="frmfield">
+						<p>Your Name</p>
+						<input type="text" name="CusName" placeholder="Your Name"required>
+					</div>
+					
+					<div class="frmfield">
+						<p>Your email</p>
+						<input id="mail" type="email" name="CusEmail" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"required>
+					</div>
+					
+					<div class="frmfield">
+						<p>Date</p>
+						<input type="date" name="date" required>
+					</div>
+					
+					<div class="frmfield">
+						<p>Time</p>
+						<input type="time" name="time" required>
+					</div>
+					
+					<div class="frmfield">
+						<p>How many people?</p>
+							<select name="select" id="#">
+								<option value="1">1 person</option>
+								<option value="2">2 persons</option>
+								<option value="3">3 persosn</option>
+								<option value="4">4 persons</option>
+								<option value="5">5 persons</option>
+								<option value="5+">5+ persons</option>
+							</select>
+					</div>
+
+		<button class="btn" name="apomnt">Submit</button>
+			</form>
+		</div>
+	</div>
+	<br><br>
+<footer>
+
+
+
+    <!--footer-->
+    <hr id="test"/>
+
+	<br/>
+    <h4 style="color:white;">Contact No: 0712309845 / 0112577832</h4><br>
+    <h4 style="color:white;">email: blossom12@gmail.com</h4><br>
+    <h5 style="color:white;">Address: NO.132/8A, Isurupura Road, Malabe.</h5><br>
+    <a href="https://www.facebook.com/blossom/"> <img id="img1" src="../images/fab1.png"  width ="40px" ></a>
+    <a href="https://www.instagram.com/blossom/"> <img id="img1" src="../images/insta.png" width ="40px"></a>
+    <a href="https://www.twwiter.com/"><img id="img1" src="../images/tweet.png" width ="40px" ></a>
+    <a href="https://www.whatsapp.com/blossom/"><img id="img1" src="../images/whatsapp.png" width ="40px"></a>
+    </div>
+    <!--//footer-->
+
+</footer>
+	
+</body>
+</html>

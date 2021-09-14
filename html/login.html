@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles1.css">
+    <script src="../js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/assigment.css">
+    <script src="../js/assigment.js"></script>
+    <style>
+		body {
+		  background-color: black;
+		}
+	</style>
+</head>
+<body class="Background">
+<div id="topImage">
+
+    <img class="logo" src="../images/logo4.png" width="40%" height="300px" alt="Salon">
+
+    <ul class="menu" style="position: absolute; left: 0;right: 0;top: 0;margin: 0">
+        <!--        <li ><a href="index.html"><img src="../images/logo4.png " style="height: 60px; display: inline"/> </a></li>-->
+        <li class="menu"><a href="home.html"> Home </a></li>
+        <li class="menu"><a href="../registration.html"> Registration </a></li>
+        <li class="menu"><a href="login.html"> Login </a></li>
+        <li class="menu"><a href="about_us.html"> About us </a></li>
+        <li class="menu"><a href="Service.html"> Service </a></li>
+        <li class="menu"><a href="Gallery.html"> Gallery</a></li>
+        <li class="menu"><a href="../price.html"> Price</a></li>
+        <li class="menu"><a href="courses.html"> Courses </a></li>
+        <li class="menu"><a href="Appointment.html"> Appointment </a></li>
+        <li class="menu"><a href="Contact.html"> Contact</a></li>
+		 <li class="menu"><a href="../map.html"> Location</a></li>
+        <li class="menu"><a href="rating.html">Rating </a></li>
+        <li style="position:absolute !important; right:12px !important;" class="menu">
+            <div class="topnav">
+                <input type="text" name="search" placeholder="Search.."/>
+            </div>
+        </li>
+    </ul>
+</div>
+<div id="middle">
+<div class="include">
+		<center><h1>Log in</h1></center>
+			<form method="POST" action="login.php">
+				Username<br>
+				<input type="text" id="uName" name="uName" class="insert" placeholder="username
+				" required><br><br>
+				Password<br>
+				<input type="password" id="showPass" name="showPass" class="insert" placeholder="password" required pattern="[a-zA-Z0-9]{5,10}"><br><br>
+				<input type="checkbox"  onclick="myfunction()">
+				show password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+				<input type="checkbox" id = "remember" name = "remember">
+				Remember me<br>
+				
+				<center><button type = "submit" onclick="" class="login">Log in</button></center>
+			    <a href="#" style="float:right">Forgot password ?</a><br><br>
+				<div class="contact1">
+					<a href="https://www.facebook.com/blossom/"><img src="../images/fb.png" width = "20px" height = "20px"></a>&nbsp;&nbsp;
+					<a href="https://www.whatsapp.com/blossom/"><img src="../images/wtp.png" width = "20px" height = "20px"></a>&nbsp;&nbsp;
+					<a href="https://www.instagram.com/blossom/"><img src="../images/insta.png" width = "20px" height = "20px"></a>&nbsp;&nbsp;
+					<a href="https://www.twitter.com/blossom/"><img src="../images/twi.png" width = "20px" height = "20px"></a>&nbsp;&nbsp;
+				</div><br>
+				<a style="float:left; color: #006699;">Already have account</a>&nbsp;&nbsp;
+				<input type="button" id="signin" name="signin"  value="sign in">
+                <a href="viewdata.php">view login details</a>
+			
+			</form>
+	</div>
+	</div>
+<div>
+<footer class="foo">
+
+
+
+    <!--footer-->
+    <hr id="test">
+
+
+    <h4 style="color:white;">Contact No: 0712309845 / 0112577832</h4>
+    <h4 style="color:white;">email: blossom12@gmail.com</h4>
+    <h5 style="color:white;">Address: NO.132/8A, Isurupura Road, Malabe.</h5>
+    <a href="https://www.facebook.com/blossom/"> <img id="img1" src="../images/fb.png"  width ="20px" ></a>&nbsp;&nbsp;
+    <a href="https://www.instagram.com/blossom/"> <img id="img1" src="../images/insta.png" width ="25px"></a>&nbsp;&nbsp;
+    <a href="https://www.twwiter.com/"><img id="img1" src="../images/twi.png" width ="20px" ></a>&nbsp;&nbsp;
+    <a href="https://www.whatsapp.com/blossom/"><img id="img1" src="../images/wtp.png" width ="20px"></a>&nbsp;&nbsp;
+	
+    </div>
+    <!--//footer-->
+
+</footer>
+
+</body>
+</html>

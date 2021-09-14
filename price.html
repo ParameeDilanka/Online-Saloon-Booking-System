@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Salon Blossom</title>
+    <link rel="stylesheet" type="text/css" href="css/pricestyles.css">
+    <script src="js/pricescript.js"></script>
+	
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="topImage">
+
+    <img class="logo" src="images/logo4.png" width="40%" height="300px" alt="Salon">
+
+    <ul class="menu">
+        <!--        <li ><a href="registration.html"><img src="images/logo4.png " style="height: 60px; display: inline"/> </a></li>  -->
+         <li class="menu"><a href="html\home.html"> Home </a></li>
+        <li class="menu"><a href="registration.html"> Registration </a></li>
+        <li class="menu"><a href="html\login.html"> Login </a></li>
+        <li class="menu"><a href="html\about_us.html"> About us </a></li>
+        <li class="menu"><a href="html\Service.html"> Service </a></li>
+        <li class="menu"><a href="html\Gallery.html"> Gallery</a></li>
+        <li class="menu"><a href="price.html"> Price</a></li>
+        <li class="menu"><a href="html\courses.html"> Courses </a></li>
+        <li class="menu"><a href="html\Appointment.html"> Appointment </a></li>
+        <li class="menu"><a href="html\Contact.html"> Contact</a></li>
+		 <li class="menu"><a href="map.html"> Location</a></li>
+        <li class="menu"><a href="html\rating.html">Rating </a></li>
+        <li style="position:absolute !important; right:12px !important;" class="menu">
+            <div class="topnav">
+                <input type="text" name="search" placeholder="Search.."/>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div id="middle-image">
+
+<center>
+<div class="layout" action = "#" target = "_self" method = "POST" action = "pr.php">
+	<button class="bttn1" type ="button"  onclick = "priceForHair()">Hair Prices</button>
+	<button class="bttn1" type ="button"  onclick = "productForBridal()">Bridal Prices</button>
+	<button class="bttn1" type ="button"  onclick = "priceForOther()">Other Prices</button>
+</div>
+<br>
+</center>
+	
+<center>	
+ <img id="img2" src="images/s1.jpg" width ="500px" >
+ <p id = "para"><b>Our best lowest pricess for you</b></p><br>
+ <button class="bttn5" type ="button" ><a href = "addprice.html">Add new price</button>
+</center>
+</div>
+
+
+<footer>
+    <!--footer-->
+    <hr id="test"/>
+    <h4 style="color:white;">Contact No: 0712309845 / 0112577832</h4>
+    <h4 style="color:white;">email: blossom12@gmail.com</h4>
+    <h5 style="color:white;">Address: NO.132/8A, Isurupura Road, Malabe.</h5>
+    <a href="https://www.facebook.com/blossom/"> <img id="img1" src="images/fab1.png"  width ="40px" ></a>
+    <a href="https://www.instagram.com/blossom/"> <img id="img1" src="images/insta.png" width ="40px"></a>
+    <a href="https://www.twwiter.com/"><img id="img1" src="images/tweet.png" width ="40px" ></a>
+    <a href="https://www.whatsapp.com/blossom/"><img id="img1" src="images/whatsapp.png" width ="40px"></a>
+    </div>
+    <!--//footer-->
+</footer>
+</body>
+</html>
+
+

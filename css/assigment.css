@@ -1,0 +1,254 @@
+
+.view{
+	background-image: url("../images/salon1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.vtable{
+
+	position: absolute;
+	background-color: white;
+	padding:3px;
+	margin:15px 10px 10px;
+	border-style:groove;
+	border-color:dark-blue;
+}
+
+.Background{
+	margin: 0;
+	padding: 0;
+	height:500px;
+	background-repeat: no-repeat;
+	}
+	
+.include{
+	color: #000;
+	width:400px;
+	height:480px;
+	position: absolute;
+	top: 10%;
+	left:38%;
+	padding: 60px 30px;	
+	transform: traslate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+}
+
+.insert{
+	width: 300px;
+}
+
+.form{
+	background-color:#95A5A6 ;
+	margin: 10px;
+	padding: 15px;
+	width: 100%;
+
+}
+
+.login{
+	background-color:#55ff00;
+	padding:5px 15px;
+	width:300px;
+	margin:10px;
+	border-radius: 10px;
+}
+
+.fPass{
+	background-color:#FF66FF;
+	padding:2px 15px;
+	margin:2px;
+	border-radius: 10px;
+	width:150px;
+}
+
+#signin{
+	background-color: #8c8c8c;
+	width:50px;
+	margin:3px;
+	padding:1px;
+	border-radius: 10px;
+}
+.include{
+	background-image: url(../images/background.jpg);
+}
+.include input[type=text], .include input[type=password]{
+	border: none;
+	border-bottom: 1px solid grey;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 12px;
+}
+ .signin{
+	 border: none;
+ }
+ 
+ .container .star-widget input{
+	 display: none;
+ }
+ 
+ input[type=submit]:hover{
+	 background-color: #8c8c8c;
+ }
+ 
+ input[type=reset]:hover{
+	 background-color: #8c8c8c;
+ }
+ 
+:focus{
+	outline: none;
+}
+ 
+ .star-widget label{
+	 font-size: 40px;
+	 color: #444;
+	 padding: 10px;
+	 float: right;
+	 transition: all 0.2s ease;
+ }
+ 
+ input:not(:checked) ~ label:hover,
+ input:not(:checked) ~ label:hover ~ label{
+	 color: #fd4;
+ }
+ input:checked ~ label{
+	 color: #fd4;
+ }
+ 
+ input#rate-5:checked ~ label{
+	 color: #fe7;
+	 text-shadow: 0 0 30px #952;
+ }
+ 
+ form header{
+	 width: 100%;
+	 font-size: 25px;
+	 color: #fe7;
+	 font-weight: 500;
+	 margin: 5px 0 20px 0;
+	 text-align: center;
+	 transition: all 0.2s ease;
+	 
+ }
+ 
+ form .textarea{
+	 height: 100px;
+	 width: 100%;
+	 overflow: hidden;
+ }
+ 
+ .para{
+	 font-family: "Times New Roman", Times, serif;
+	 color: white;
+ }
+ 
+ .textarea{
+	 border-color: gray;
+	 transition: .5s;
+	 background-color: #cccccc;
+ }
+ 
+ .contact{
+	 margin-top: 13%;
+	 text-align: center;
+ }
+ 
+ .contact a{
+	 width: 30px;
+	 height: 30px;
+	 display: inline-block;
+	 border: 1px solid #fff;
+	 border-radius: 50%;
+	 margin: 0 5px;
+ }
+ .contact a:nth-child(1){
+	 background: #3b5998;
+ }
+ .contact a:nth-child(2){
+	 background: #55acee;
+ }
+ .contact a:nth-child(3){
+	 background: #bd081c;
+ }
+ .contact a:nth-child(4){
+	 background: #0077b5;
+ }
+ 
+ .contact a i{
+	 padding: 8px 0;
+ }
+ 
+ .rBody{
+	 background-image: url("../images/pic5.jpg");
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 100vh;
+	 font-family: arial;
+	 height: 650px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	 margin: 0;
+ }
+ .box{
+	 width: 500px;
+	 height: 400px;
+	 background: #111;
+	 padding: 20px 30px;
+	 border: 1px solid #444;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 position: center;
+	 
+ }
+ 
+.p{
+	 font-size: 30px;
+	 color: white;
+ }
+ 
+ .rating{
+	 position: center;
+	 display: flex;
+	 flex-direction: row-reverse;
+	 margin-top: 10px;
+	 border: 1px solid #000;
+	 box-sizing: border-box;
+	 background: linear-gradient(to right, #9933ff, #6600ff, #0000ff);
+	 
+ }
+ 
+ .rating input{
+	 display: none;
+ }
+ .rating label{
+	 display: block;
+	 cursor: pointer;
+	 width:70px;
+	 height: 40px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 transition: 0.6s;
+	 background: #fff;
+	 color: #000;
+	 font-size: 20px;
+	 border-right: 1px solid #000;
+ }
+ 
+ .rating input[type="radio"]:hover ~ label,
+ .rating input[type="radio"]:checked ~ label
+ {
+	 background: transparent;
+ }
+ 
+ 
+ 

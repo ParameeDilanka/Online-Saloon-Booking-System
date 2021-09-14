@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Rating page</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles1.css">
+    <script src="../js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/assigment.css"/>
+	<script src="../js/assigment.js"></script>
+	<style>
+		body {
+		  background-color: black;
+		}
+	</style>
+</head>
+<header>
+<div id="topImage">
+
+    <img class="logo" src="../images/logo4.png" width="40%" height="300px" alt="Salon">
+
+    <ul class="menu" style="position: absolute; left: 0;right: 0;top: 0;margin: 0">
+        <!--        <li ><a href="index.html"><img src="../images/logo4.png " style="height: 60px; display: inline"/> </a></li>-->
+        <li class="menu"><a href="home.html"> Home </a></li>
+        <li class="menu"><a href="../registration.html"> Registration </a></li>
+        <li class="menu"><a href="login.html"> Login </a></li>
+        <li class="menu"><a href="about_us.html"> About us </a></li>
+        <li class="menu"><a href="Service.html"> Service </a></li>
+        <li class="menu"><a href="Gallery.html"> Gallery</a></li>
+        <li class="menu"><a href="../price.html"> Price</a></li>
+        <li class="menu"><a href="courses.html"> Courses </a></li>
+        <li class="menu"><a href="Appointment.html"> Appointment </a></li>
+        <li class="menu"><a href="Contact.html"> Contact</a></li>
+		 <li class="menu"><a href="../map.html"> Location</a></li>
+        <li class="menu"><a href="rating.html">Rating </a></li>
+        <li style="position:absolute !important; right:12px !important;" class="menu">
+            <div class="topnav">
+                <input type="text" name="search" placeholder="Search.."/>
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+</header>
+		<div  class="rBody">
+		<div class="box">
+		<p class="p">rate us!</p>
+		<div class="rating">
+			<input type = "radio" name="rating" id="vote5"><label for="vote5" onclick="dComment(5)">5</label>
+			<input type = "radio" name="rating" id="vote4"><label for="vote4" onclick="dComment(4)">4</label>
+			<input type = "radio" name="rating" id="vote3"><label for="vote3" onclick="dComment(3)">3</label>
+			<input type = "radio" name="rating" id="vote2"><label for="vote2" onclick="dComment(2)">2</label>
+			<input type = "radio" name="rating" id="vote1"><label for="vote1" onclick="dComment(1)">1</label>
+		</div>
+		<p id ="para" class="para"></p>
+		
+		<h3 style="color:white">submit your thoughts about our service.</h3>
+		<div class="align">
+			<form action="rating.php" method="POST">
+					<textarea id="comment" name="comment" cols="60" rows="5" placeholder="Describe your experience...." class="textarea"></textarea><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" value="post" onclick="display()" class="dec">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="reset" id="rst" name="rst" value="Reset" class="dec">
+
+                    <a href="ratingscore.php">view rating details</a>
+			</form>
+		</div>
+		
+	</div>
+	</div>
+
+<footer>
+
+
+
+    <!--footer-->
+    <hr id="test"/>
+
+
+    <h4 style="color:white;">Contact No: 0712309845 / 0112577832</h4>
+    <h4 style="color:white;">email: blossom12@gmail.com</h4>
+    <h5 style="color:white;">Address: NO.132/8A, Isurupura Road, Malabe.</h5>
+    <a href="https://www.facebook.com/blossom/"> <img id="img1" src="../images/fb.png"  width ="20px" ></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/blossom/"> <img id="img1" src="../images/insta.png" width ="20px"></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.twwiter.com/"><img id="img1" src="../images/twi.png" width ="20px" ></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.whatsapp.com/blossom/"><img id="img1" src="../images/wtp.png" width ="20px"></a>
+	
+    </div>
+    <!--//footer-->
+
+</footer>
+
+</body>
+</html>

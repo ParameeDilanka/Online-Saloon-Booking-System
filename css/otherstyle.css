@@ -1,0 +1,39 @@
+body{
+	background-image: url("../images/background.jpg");
+}
+form{
+	width:500px;
+	background:	#000080;
+	color:white;
+	margin:auto;
+	padding:20px;
+	font-size:14px;
+	font-family:verdana;
+}
+.inpt{
+	width: 500px;
+}
+.bttn{
+	 margin:8px 4px 4px 4px;
+    width:10%;
+    height:30px;
+    background-color:red;
+    font-size:10px;
+    font-weight:bold;
+}
+table {
+	    border-spacing: 1px;
+}
+th, td {
+		 padding: 5px 30px 5px 10px;
+		 border-spacing: 1px;
+		 font-size: 90%;
+		 margin: 0px;
+}
+th, td {
+		 text-align: left;
+		 background-color: #e0e9f0;
+		 border-top: 1px solid  black;
+		 border-bottom: 1px solid black;
+		 border-right: 1px solid black;
+}
